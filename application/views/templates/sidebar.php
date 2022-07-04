@@ -60,6 +60,20 @@
 
         <!-- Nav Item - Logout -->
         <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-cog"></i>
+                <span>Survey</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Aptika</h6>
+                    <a class="collapse-item" href="<?= base_url('Aptika/index') ?>">Layanan Bidang Umum</a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Nav Item - Logout -->
+        <li class="nav-item">
             <a class="nav-link" href="<?= base_url('auth/logout'); ?>">
                 <i class="fas fa-fw fa-sign-out-alt"></i>
                 <span>Logout</span></a>
